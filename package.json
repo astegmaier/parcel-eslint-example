@@ -1,0 +1,26 @@
+{
+  "name": "parcel-eslint-example",
+  "version": "1.0.0",
+  "description": "An example of how to use the @parcel/validator-eslint plugin",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html  --no-optimize --no-scope-hoist",
+    "serve": "http-server dist",
+    "clean": "rimraf dist .parcel-cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/validator-eslint": "^2.5.0",
+    "@types/react": "^18.0.8",
+    "eslint": "^8.14.0",
+    "http-server": "^14.1.0",
+    "parcel": "^2.5.0",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
