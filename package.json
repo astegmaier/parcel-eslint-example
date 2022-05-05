@@ -4,10 +4,10 @@
   "description": "An example of how to use the @parcel/validator-eslint plugin",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html  --no-optimize --no-scope-hoist",
+    "build": "parcel build src/index.html",
     "serve": "http-server dist",
     "clean": "rimraf dist .parcel-cache",
-    "lint": "eslint src/**/*.jsx"
+    "lint": "eslint src/**/*.js"
   },
   "keywords": [],
   "author": "",
@@ -21,7 +21,7 @@
     "rimraf": "^3.0.2"
   },
   "dependencies": {
-    "eslint": "6",
+    "eslint": "^6.8.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   }
