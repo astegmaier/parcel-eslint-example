@@ -14,15 +14,12 @@
   "license": "ISC",
   "devDependencies": {
     "@parcel/validator-eslint": "^2.5.0",
-    "@types/react": "^18.0.8",
     "eslint-plugin-react": "^7.29.4",
     "http-server": "^14.1.0",
     "parcel": "^2.5.0",
     "rimraf": "^3.0.2"
   },
   "dependencies": {
-    "eslint": "^6.8.0",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "eslint": "^7.32.0"
   }
 }
